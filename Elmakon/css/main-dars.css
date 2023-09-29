@@ -1,0 +1,244 @@
+.nav-item a:hover{
+    color: black !important;
+    text-decoration: underline !important;
+}
+.nav-item a{
+    color: black !important;
+    text-decoration: none !important;
+    font-size: 13px;
+}
+.heart{
+    width: 50px;
+    height: 50px;
+    background-image: url("../rasmlar/heart.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    padding-top:14px ;
+}
+.knopkalar-navbar{
+    height: 90%;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.knopka-heart{
+    height: 100%;
+    width: 45px;
+    background-image: url("../rasmlar/heart.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position:  top 14px left 10px ;
+    display: inline-block;
+    border: 0.5px solid #cdcbcb;
+    transition: all ease 0.4s;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.knopka-heart:hover{
+    height: 100%;
+    width: 45px;
+    background-image: url("../rasmlar/heart (1).png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position:  top 14px left 10px;
+    display: inline-block;
+    border: 0.5px solid #808080;
+    box-shadow: 0 0 5px grey;
+}
+.knopka-compasion{
+    height: 100%;
+    width: 45px;
+    margin-left: -5px;
+    background-image: url("../rasmlar/comparison.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position:  top 14px left 10px ;
+    display: inline-block;
+    border: 1px solid #bcbcbc;
+    transition: all ease 0.4s;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.knopka-compasion:hover{
+    height: 100%;
+    width: 45px;
+    background-image: url("../rasmlar/comparison (1).png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position:  top 14px left 10px;
+    display: inline-block;
+    border: 1px solid grey;
+    box-shadow: 0 0 5px grey;
+}
+.nomer-nav{
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: -40px;
+    margin-left: 100px;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+.carousel-wh{
+    width: 100% !important;
+    height: 415px !important;
+
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicators .active , .carousel-indicators li:hover{
+    background-color: grey;
+}
+.card-hand{
+    height: 100% !important;
+}
+.card-elmakon{
+    height: 170px;
+    width: 100%;
+}
+.card-group-1{
+    margin-left: 1rem;
+}
+.qolda-a{
+    background: rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 10px black ;
+    -moz-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+    padding: 1rem 1rem 1rem 0.80rem;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute !important;
+    bottom: 17% !important;
+    left: 2% !important;
+}
+.qolda-b{
+    background: rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 10px black;
+    -moz-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+    padding: 1rem 0.80rem 1rem 1rem ;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute !important;
+    bottom: 17% !important;
+    right: 2% !important;
+}
+.card-group-rasm{
+    width: 90%;
+}
+.yulduzlar{
+
+    text-decoration: none;
+}
+.yulduzlar:hover{
+
+    text-decoration: none !important;
+}
+.yulduzlar-ratio{
+    color: grey;
+    margin-left: -15px;
+}
+.card-5:hover{
+    border-bottom: 1px solid lightgray !important;
+}
+.text-linyali{
+    text-decoration: line-through;
+}
+.skidka{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #1e7e34;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top: 10px;
+    right:10px;
+}
+.skidka-qizil{
+    background-color: red;
+}
+.skidka-glavni{
+    font-size: 20px;
+    text-align:center;
+    color:white;
+}
+.skidka-ftaroy{
+    font-size: 10px;
+    margin-top: -20px;
+    color: white;
+    text-align: center;
+}
+.img-qolda-elmakon-carousel{
+    width:100%;
+    height:196px !important;
+}
+.card-hover-elmakon{
+    width:100% !important;
+    height:444px!important;
+}
+.card-hover-wadow{
+    border:1px solid lightgray;
+    border-radius:5px;
+}
+.elmakon-kok{
+    margin-left:-2rem;
+}
+.w-25-rucnoy{
+    width:24%;
+}
+.kun35{
+    width:60px;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    background-color: grey;
+    text-align: center;
+    color:white;
+    /*box-sizing:border-box;*/
+}
+.atigi{
+    position:absolute;
+    top: 30%;
+    left: 13%;
+}
+.qoldi{
+    margin-top:0;
+}
+.img-fluid-menuu{
+    width: 86%;
+    margin-left: 1.6rem;
+    margin-top: -20px;
+}
+#chek{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10.2rem;
+    left: 2.3rem;
+}
+.btn-left{
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+}
